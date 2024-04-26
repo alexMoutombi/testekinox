@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.ekinox.testekinox.TestekinoxApplicationTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2024-04-26T17:50:14" hostname="Ordinateur-portable-de-Alex.local" time="0.552">
+  <properties/>
+  <testcase name="WhenGet3ArticleThenGet_36()" classname="com.ekinox.testekinox.TestekinoxApplicationTests" time="0.541"/>
+  <testcase name="WhenGetEmptyBillThenGet_0()" classname="com.ekinox.testekinox.TestekinoxApplicationTests" time="0.001"/>
+  <testcase name="WhenGet2ArticleThenGet_27()" classname="com.ekinox.testekinox.TestekinoxApplicationTests" time="0.002"/>
+  <testcase name="WhenGet1ArticleThenGet_15()" classname="com.ekinox.testekinox.TestekinoxApplicationTests" time="0.001"/>
+  <testcase name="contextLoads()" classname="com.ekinox.testekinox.TestekinoxApplicationTests" time="0.001"/>
+  <testcase name="WhenGet3ArticleAnd1FilmThenGet_56()" classname="com.ekinox.testekinox.TestekinoxApplicationTests" time="0.001"/>
+  <system-out><![CDATA[19:50:13.126 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.ekinox.testekinox.TestekinoxApplicationTests]: TestekinoxApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+19:50:13.202 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.ekinox.testekinox.TestekinoxApplication for test class com.ekinox.testekinox.TestekinoxApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::       (v3.2.6-SNAPSHOT)
+
+2024-04-26T19:50:13.460+02:00  INFO 28874 --- [testekinox] [    Test worker] c.e.t.TestekinoxApplicationTests         : Starting TestekinoxApplicationTests using Java 21.0.2 with PID 28874 (started by alexmoutombi in /Users/alexmoutombi/IdeaProjects/testekinox)
+2024-04-26T19:50:13.460+02:00  INFO 28874 --- [testekinox] [    Test worker] c.e.t.TestekinoxApplicationTests         : No active profile set, falling back to 1 default profile: "default"
+2024-04-26T19:50:14.158+02:00  INFO 28874 --- [testekinox] [    Test worker] c.e.t.TestekinoxApplicationTests         : Started TestekinoxApplicationTests in 0.854 seconds (process running for 1.675)
+]]></system-out>
+  <system-err><![CDATA[WARNING: A Java agent has been loaded dynamically (/Users/alexmoutombi/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy-agent/1.14.13/979ce25f7d3096a2e82214ba7dc972a05ce7a171/byte-buddy-agent-1.14.13.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+]]></system-err>
+</testsuite>
